@@ -5,6 +5,7 @@ import numpy as np
 def get_activations(model, inputs, print_shape_only=False, layer_name=None):
     # Documentation is available online on Github at the address below.
     # From: https://github.com/philipperemy/keras-visualize-activations
+    # cite: https://keras.io/getting-started/faq/#how-can-i-obtain-the-output-of-an-intermediate-layer
     print('----- activations -----')
     activations = []
     inp = model.input
